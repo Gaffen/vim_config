@@ -10,6 +10,10 @@ dir=~/vim_config                    # dotfiles directory
 olddir=~/vim_config_bak             # old dotfiles backup directory
 files="bashrc vimrc vim zshrc"    # list of files/folders to symlink in homedir
 
+brew install zsh
+brew install tmux
+gem install tmuxinator
+
 ##########
 
 # create dotfiles_old in homedir
