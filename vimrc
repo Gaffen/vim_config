@@ -9,3 +9,14 @@ filetype plugin indent on
 
 Bundle 'kien/ctrlp.vim'
 Bundle 'vim-scripts/The-NERD-tree'
+
+" allows us to more easily work with markdown files
+Bundle 'tpope/vim-markdown'
+
+" allows us to comment/uncomment lines and content
+Bundle 'tpope/vim-commentary.git'
+
+Bundle 'flazz/vim-colorschemes'
+Bundle 'bling/vim-airline'
+
+Bundle 'tpope/vim-fugitive'
