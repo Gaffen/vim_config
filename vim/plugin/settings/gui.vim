@@ -16,7 +16,7 @@ filetype plugin on
 set nocompatible 
 
 " command history
-set history=1000
+set history=100
 
 " always show cursor
 set ruler
@@ -78,4 +78,4 @@ autocmd BufReadPost *
   \ endif
 
 " lets make sure we don't show these files
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store
+" set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store

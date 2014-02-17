@@ -1,7 +1,7 @@
 #!/bin/bash
 ############################
 # .make.sh
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles, it also installs zsh, tmux, and tmuxinator, and sets zsh to the default editor
 ############################
 
 ########## Variables
