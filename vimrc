@@ -3,6 +3,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 filetype plugin indent on
 
+filetype on
+
 " ALL OF THE ABOVE IS ALSO REQUIRED
 " FOR SUCCESSFUL VUNDLE INSTALL
 " THE FOLLOWING IS NEW FOR US…
@@ -30,7 +32,7 @@ Bundle 'sjl/gundo.vim'
 Bundle 'scrooloose/syntastic'
 
 " Indentation highlighting
-Bundle "pathanaelkane/vim-indent-guides"
+Bundle "nathanaelkane/vim-indent-guides"
 
 " Quote and bracket completion
 Bundle "Raimondi/delimitMate"
